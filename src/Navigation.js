@@ -22,4 +22,5 @@ const Navigation = PaymentResponse =>(
       <Route exact path="/Contact" component={Form } />
   </Router>
 );
+
 export default Navigation;
