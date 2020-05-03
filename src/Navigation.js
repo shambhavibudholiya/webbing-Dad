@@ -13,7 +13,7 @@ const Navigation = props =>(
       {/* <a className="as dim red f4 f5-ns mr4" href="https://mailchi.mp/a8b8bb3ecbc6/yogacharyaajay" title="Contact">Contact1</a>  */}
 
       
-      <NavLink to="/" className="as dim red f4 f5-ns mr4">About</NavLink>
+      <NavLink to="/about" className="as dim red f4 f5-ns mr4">About</NavLink>
       <NavLink to="/Form" className="as dim red f4 f5-ns mr4">Contact</NavLink>
     </nav>
      </header>

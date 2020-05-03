@@ -18,14 +18,17 @@ return (
 
 <div className="App">
 <Navigation />   
+{/* <Page/>
+<Slide />
+<Grid/> */}
 
 <Route path="/Form" component = {Form}/> 
-<Route path="/" component = {Page } exact/> 
-<Route path="/" component = {Slide} exact />
+<Route path="" component = {Page } exact/> 
+<Route path="" component = {Slide} exact />
 <br />
 <br />
 <br />
-<Route path="/" component = {Grid} exact/>  
+<Route path="" component = {Grid} exact/>  
 
 
   <BackToTop
