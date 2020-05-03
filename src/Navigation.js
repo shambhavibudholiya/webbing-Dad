@@ -18,7 +18,7 @@ const Navigation = () =>
   <header className="Navigation dt--fixed border-box bb b--black-10">
     <nav className="nav pa4-ns">
       <a className="yt dim black f4 f5-ns mr4" href="https://www.youtube.com/channel/UC-19kU4aNJRS77wRxo0uPHg" title="Watch on Youtube">YouTube</a>
-      <NavLink to="/webbing-dad" className="as dim red f4 f5-ns mr4">Home</NavLink>
+      <NavLink to="/" className="as dim red f4 f5-ns mr4">Home</NavLink>
       <NavLink to="/Contact" className="as dim red f4 f5-ns mr4">Contact</NavLink>
     </nav>
      
@@ -26,9 +26,9 @@ const Navigation = () =>
 
 
      </div>
-     <Route exact path="/webbing-dad" component={Page} />
-      <Route exact path="/webbing-dad" component={Slide} />
-      <Route exact path="/webbing-dad" component={Grid} />
+     <Route exact path="/" component={Page} />
+      <Route exact path="/" component={Slide} />
+      <Route exact path="/" component={Grid} />
       <Route exact path="/Contact" component={Form } />
     </div>
   </Router>
