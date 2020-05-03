@@ -9,15 +9,13 @@ import './App.css';
 import './Navigation.css';
 import BackToTop from "react-back-to-top-button";
 
-
-
 class App extends Component {
 render(){
 return (
-
-
 <div className="App">
 <Navigation />   
+
+
   <BackToTop
   showOnScrollUp
   showAt={100}
@@ -35,16 +33,3 @@ return (
 }
 }
   export default App;
-
-
-//   <Page/>
-// <Slide />
-// <Grid/> 
-/* 
-<Route path="/Form" component = {Form}/> 
-<Route path="" component = {Page } exact/> 
-<Route path="" component = {Slide} exact />
-<br />
-<br />
-<br />
-<Route path="" component = {Grid} exact/>   */
