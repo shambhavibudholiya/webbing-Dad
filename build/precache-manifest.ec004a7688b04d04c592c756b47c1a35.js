@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e73cdd6d1b72d806965eeda07d993c35",
+    "revision": "4faad620bb4409ef91c8f4c4278b9ac5",
     "url": "/webbing-dad/index.html"
   },
   {
-    "revision": "de36469e27dc85cf27d0",
-    "url": "/webbing-dad/static/css/2.88cd9630.chunk.css"
+    "revision": "463fbed0e6765c516d98",
+    "url": "/webbing-dad/static/css/2.4f846c02.chunk.css"
   },
   {
-    "revision": "d83c808ff59806fa8de7",
+    "revision": "e1ee4269f83fc9402774",
     "url": "/webbing-dad/static/css/main.8a218122.chunk.css"
   },
   {
-    "revision": "de36469e27dc85cf27d0",
-    "url": "/webbing-dad/static/js/2.01b474b5.chunk.js"
+    "revision": "463fbed0e6765c516d98",
+    "url": "/webbing-dad/static/js/2.8b027a23.chunk.js"
   },
   {
     "revision": "73d107ee83c6947ee29fd47930ccb2aa",
-    "url": "/webbing-dad/static/js/2.01b474b5.chunk.js.LICENSE.txt"
+    "url": "/webbing-dad/static/js/2.8b027a23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d83c808ff59806fa8de7",
-    "url": "/webbing-dad/static/js/main.258a6bf5.chunk.js"
+    "revision": "e1ee4269f83fc9402774",
+    "url": "/webbing-dad/static/js/main.80c39778.chunk.js"
   },
   {
     "revision": "60e740a93589fa4b48ca",

@@ -22,8 +22,8 @@ return (
 <Slide />
 <Grid/>
 
-{/* <Route path="/Form" component = {Form}/> 
-<Route path="" component = {Page } exact/> 
+<Route path="/Form" component = {Form}/> 
+{/* <Route path="" component = {Page } exact/> 
 <Route path="" component = {Slide} exact />
 <br />
 <br />
