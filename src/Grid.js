@@ -1,58 +1,112 @@
 import React from 'react';
 import './Grid.css';
-import {Animated} from "react-animated-css";
+
 
 
 const Grid = () =>{
     return(
 <div className="body">
-<Animated animationIn="lightSpeedIn" animationOut="zoomOutDown" animationInDuration={3000} animationOutDuration={3000} isVisible={true}>
-    <h1 className="center ">Youtube Videos</h1>
-    </Animated>  
+    <h1 className="center">Youtube Videos</h1>
 
 	<div class="container">	
 
-  <iframe src="https://www.youtube.com/embed/9D8c1BbhsW0"></iframe>
+  <iframe className="frame" src="https://www.youtube.com/embed/9D8c1BbhsW0" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen" ></iframe>
 
 
-             <iframe src="https://www.youtube.com/embed/s_1PSGDFcrs"></iframe>
+             <iframe className="frame" src="https://www.youtube.com/embed/s_1PSGDFcrs" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen"></iframe>
   
 
-      <iframe src="https://www.youtube.com/embed/EyaEgtJ2Wzg">
+      <iframe className="frame" src="https://www.youtube.com/embed/EyaEgtJ2Wzg" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
             </iframe>	 
 
-            <iframe src="https://www.youtube.com/embed/cfgtQ4OAfmQ">
+            <iframe className="frame" src="https://www.youtube.com/embed/cfgtQ4OAfmQ" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
             </iframe>	 
 
 
-       <iframe src="https://www.youtube.com/embed/VLoNgULEWbA">
+       <iframe className="frame" src="https://www.youtube.com/embed/VLoNgULEWbA" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
             </iframe>	
            
-        <iframe src="https://www.youtube.com/embed/gMI-Ky9qLRQ">
+        <iframe className="frame" src="https://www.youtube.com/embed/gMI-Ky9qLRQ" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
       </iframe>	
         
-        <iframe src="https://www.youtube.com/embed/JU3wbSOKUHQ">
+        <iframe className="frame" src="https://www.youtube.com/embed/JU3wbSOKUHQ" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
             </iframe>	
 
-       <iframe src="https://www.youtube.com/embed/3njaPoOkAoQ">
+       <iframe className="frame" src="https://www.youtube.com/embed/3njaPoOkAoQ" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	    
         
-        <iframe src="https://www.youtube.com/embed/i4IgICx3W1U">
+        <iframe className="frame" src="https://www.youtube.com/embed/i4IgICx3W1U" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	    
             
-        <iframe src="https://www.youtube.com/embed/6HJIqHc0_kk">
+        <iframe className="frame" src="https://www.youtube.com/embed/6HJIqHc0_kk" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	    
             
-        <iframe src="https://www.youtube.com/embed/DnVkxKj3sJE">
+        <iframe className="frame" src="https://www.youtube.com/embed/DnVkxKj3sJE" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	 
 
-        <iframe src="https://www.youtube.com/embed/Z0CF6msnJpI">
+        <iframe className="frame" src="https://www.youtube.com/embed/Z0CF6msnJpI" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	
 
-          <iframe src="https://www.youtube.com/embed/MOGas3DU0_k">
+          <iframe className="frame" src="https://www.youtube.com/embed/MOGas3DU0_k" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	        
 
-        <iframe src="https://www.youtube.com/embed/cGQxeCffmgk">
+        <iframe className="frame" src="https://www.youtube.com/embed/cGQxeCffmgk" allowfullscreen="allowfullscreen"
+        mozallowfullscreen="mozallowfullscreen" 
+        msallowfullscreen="msallowfullscreen" 
+        oallowfullscreen="oallowfullscreen" 
+        webkitallowfullscreen="webkitallowfullscreen">
         </iframe>	
 	
     </div>

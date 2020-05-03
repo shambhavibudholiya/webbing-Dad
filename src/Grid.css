@@ -6,10 +6,6 @@
 	display: flex;
 	flex-wrap: wrap;
     justify-content: center;
-    background: #eacda3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .center {
@@ -35,18 +31,19 @@ background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, F
     background: #C6FFDD;
     transform: scale(1.05);
 }
-h3 {
+h1 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: .15em;
     line-height: 1.25;
     margin-top: 0;
+    width: 100%;
     margin-bottom: 1%;
     font-family: 'avenir next',sans-serif;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
-}
+} 
 @media screen and (max-width: 500px){
     .center {
       width: 50%;
@@ -64,14 +61,14 @@ h3 {
         transition: all 1s; 
     }
 }
-iframe {
-    width: 600px;
-	height:400px ;
-	margin:3%;
+.frame {
+    width:800px;
+    height: 500px;
+    margin:2%;
   transition: all 1s;
-  background-size: cover;
+
 }
 
-iframe:hover {
+.frame:hover {
 	transform: scale(1.1);
-}
+} 

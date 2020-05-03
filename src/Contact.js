@@ -1,29 +1,13 @@
 import React from 'react';
-import './Contact.css';
+import './Contact.css'
 
-const Contact = () =>{
+
+const Form = () =>{ 
     return(    
-      <div className="body">
-        <h3>Contact Form</h3>
-      <div className="container1">
-        <form>
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." />
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
-      
-          <label for="number">Contact Number </label>
-          <input type="text" id="num" name="number" placeholder="Your Contact Number" />
-
-          <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-      
-          <input type="submit" value="Submit" />
-        </form>
+      <div className="formcontainer">
+        <h3>Contact form</h3>
+        <iframe className="forms" src="https://docs.google.com/forms/d/e/1FAIpQLScD1YeqhV3yAB5iH3Dh9h3PYdt0weg0wC_ALn4GAv5_ioSjow/viewform?embedded=true"  width="100%" height="768" frameborder="0" marginheight="5%" marginwidth="0">Loading…</iframe>
       </div>
-      </div>
-    );
-} 
-export default Contact;
+     );
+}; 
+export default Form; 
