@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/webbing-dad/precache-manifest.6860df48f36adf1c82f9a7ab4d619cd8.js"
+  "/webbing-dad/precache-manifest.ec004a7688b04d04c592c756b47c1a35.js"
 );
 
 self.addEventListener('message', (event) => {
