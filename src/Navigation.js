@@ -7,20 +7,20 @@ import Page from './Page';
 import Slide from './SlideEffect'; 
 import Grid from './Grid';
 
-const Navigation = PaymentResponse =>(
+const Navigation= () =>(
   <Router>
-
 <header className="Navigation dt--fixed border-box bb b--black-10">
     <nav className="nav pa4-ns">
       <a className="yt dim black f4 f5-ns mr4" href="https://www.youtube.com/channel/UC-19kU4aNJRS77wRxo0uPHg" title="Watch on Youtube">YouTube</a>
-      <NavLink to="/webbing-dad" className="as dim red f4 f5-ns mr4">Home</NavLink>
+      <NavLink to="/webbing-dad/" className="as dim red f4 f5-ns mr4">Home</NavLink>
       <NavLink to="/Contact" className="as dim red f4 f5-ns mr4">Contact</NavLink>
-    </nav>    </header>
-     <Route exact path="/webbing-dad" component={Page} />
-      <Route exact path="/webbing-dad" component={Slide} />
-      <Route exact path="/webbing-dad" component={Grid} />
+    </nav>
+     </header> 
+     <Route exact path="/webbing-dad/" component={Page} />
+      <Route exact path="/webbing-dad/" component={Slide} />
+      <Route exact path="/webbing-dad/" component={Grid} />
       <Route exact path="/Contact" component={Form } />
   </Router>
 );
-
 export default Navigation;
+
